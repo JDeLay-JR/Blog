@@ -1,2 +1,11 @@
 # Scrapr: a collaborative, real-time scrapbooking manager
-## ... for events, happenings, and life
+
+## Project Background
+
+## Dealing with Images
+
+### Image Compression & Orientation
+
+### Image Hosting
+
+## Real Time Updates
