@@ -4,9 +4,7 @@
 
 Tinkle was developed during my time as a Teaching Fellow at the Fullstack Academy of Code alongside Ari Kramer and Shmuel Lotman. Tinkle is an application that will find you the nearest public bathroom. Our current version is limited to New York City but we have plans to expand. Tinkle was built using React Native, Express, Sequelize, and PostgreSQL. We also utilized the NYC Open Data API, Google's Geocode API, and some other fun node modules like 'zipcode'.
 
-## Video Demonstration
-
-!["tinkle"](https://www.youtube.com/watch?v=ByQMJd4s3zM)
+["Video Demonstration of Tinkle"](https://www.youtube.com/watch?v=ByQMJd4s3zM)
 
 ## Data Organization
 
