@@ -2,7 +2,7 @@
 
 ## Project Background
 
-Scrappr is a collaborative, real-time scrapbooking manager for events, happenings, and life. Scrappr was built during my time as a student at The Fullstack Academy of Code. I worked closely with two other software engineers, Tim LaTorre and Bryan Clark, to build this unique platform that enables event-goers to contribute content in real-time to create a virtual scrapbook.
+Scrappr is a collaborative, real-time, event driven scrapbooking application for events, happenings, and life. Scrappr was built during my time as a student at The Fullstack Academy of Code. I worked closely with two other software engineers, Tim LaTorre and Bryan Clark, to build this unique platform that enables event-goers to contribute content in real-time to create a virtual scrapbook.
 
 ## Technology Stack
 
@@ -21,7 +21,7 @@ One of the biggest challenges that our group faced was finding a solution for im
 
 ### Image Compression & Orientation
 
-An interesting challenge our group had to overcome was how to send images from a client's phone to our Firebase Storage server in a timely and performant manner. To accomplish this task we used HTML5's canvas element to reorient and resize each and every photo. Reducing the size of each photo sped up the entire upload process and reorienting each image allowed React to render them properly in the grid on the Mosaic component. 
+An interesting challenge our group had to overcome was how to send images from a client's phone to our Firebase Storage server in a timely and performant manner. To accomplish this task we used HTML5's canvas element to reorient and resize each and every photo. Reducing the size of each photo sped up the entire upload process and reorienting each image allowed React to render them properly in the grid on the Mosaic component.
 
 ## Other Interesting Technology Used
 
