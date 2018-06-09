@@ -1,4 +1,4 @@
-# Scrapr: A Collaborative, Real-Time, Event Driven Scrapbook
+# Scrappr: A Collaborative, Real-Time, Event Driven Scrapbook
 
 ## Project Background
 
@@ -8,7 +8,7 @@ Scrappr is a collaborative, real-time, event driven scrapbooking application for
 
 !["Tech Stack"](TechStack.png)
 
-The technology stack our team used to build Scrappr was based on Node.js. Our backend consisted of a PostgreSQL database in combination with an Express web server framework. We decided to leverage the Sequelize ORM to seamlessly manage data flow from our database to our frontend. We built our frontend using React & Redux which allowed us to create a highly responsive progressive web application that was able to respond immediately to real-time state changes in the Redux store. 
+The technology stack our team used to build Scrappr was based on Node.js. Our backend consisted of a PostgreSQL database in combination with an Express web server framework. We decided to leverage the Sequelize.js ORM to seamlessly manage data flow from our database to our frontend. We built our frontend using React & Redux which allowed us to create a highly responsive progressive web application that was able to respond immediately to real-time state changes in the Redux store.
 
 ## Dealing with Images
 
@@ -16,7 +16,7 @@ The technology stack our team used to build Scrappr was based on Node.js. Our ba
 
 !["Firebase and Socket.io"](FBandSocket.png)
 
-One of the biggest challenges that our group faced was finding a solution for image storage. We decided to leverage Google's Firebase Storage technology to handle image hosting. Our team decided against using a third-party database system because we wanted to have strict control over the flow of image and user data. Therefore we used Firebase as a micro-service solely to host images and generate reference URLs that are subsequently saved to our PostgreSQL database along with other relevant EXIF image metadata. Once we obtain the URL reference and metadata we package it into an image object. We then utilized Socket.io to emit this image object from the client's device, to our server, which then broadcasts it to all of the event's participants triggering a real-time re-rendering of their photo mosaic to include the newly uploaded image. 
+One of the biggest challenges that our group faced was finding a solution for image storage. We decided to leverage Google's Firebase Storage technology to handle image hosting. Our team decided against using a third-party database system because we wanted to have strict control over the flow of image and user data. Therefore we used Firebase as a micro-service solely to host images and generate reference URLs that are subsequently saved to our PostgreSQL database along with other relevant EXIF image metadata. Once we obtain the URL reference and metadata we package it into an image object. We then utilized Socket.io to emit this image object from the client's device, to our server, which then broadcasts it to all of the event's participants triggering a real-time re-rendering of their photo mosaic to include the newly uploaded image.
 
 
 ### Image Compression & Orientation
