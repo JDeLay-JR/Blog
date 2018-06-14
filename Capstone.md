@@ -8,7 +8,7 @@ Scrappr is a collaborative, real-time, event driven scrapbooking application for
 
 !["Tech Stack"](TechStack.png)
 
-The technology stack our team used to build Scrappr was based on Node.js. Our backend consisted of a PostgreSQL database in combination with an Express web server framework. We decided to leverage the Sequelize.js ORM to seamlessly manage data flow from our database to our frontend. We built our frontend using React & Redux which allowed us to create a highly responsive progressive web application that was able to respond immediately to real-time state changes in the Redux store.
+The technology stack our team used to build Scrappr was based on Node.js. Our backend consisted of a PostgreSQL database in combination with an Express web server. We decided to leverage the Sequelize.js ORM to seamlessly manage data flow from our database to our frontend. We built our frontend using React & Redux which allowed us to create a highly responsive progressive web application that was able to respond immediately to real-time state changes in the Redux store.
 
 ## Dealing with Images
 
